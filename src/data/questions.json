@@ -1,0 +1,206 @@
+{
+  "questions": [
+    {
+      "question": "Lionel Messi joined FC Barcelona's youth academy (La Masia) in what year?",
+      "options": ["1998", "2000", "2003", "2005"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "In what year was FC Barcelona founded?",
+      "options": ["1899", "1905", "1912", "1920"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the nickname of FC Barcelona?",
+      "options": ["The Lions", "The Catalans", "The Blaugrana", "The Royals"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which stadium is the home of FC Barcelona?",
+      "options": [
+        "Santiago Bernabéu",
+        "Wanda Metropolitano",
+        "Camp Nou",
+        "Mestalla"
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which player is Barcelona's all-time top scorer?",
+      "options": ["Luis Suárez", "Ronaldinho", "Lionel Messi", "Samuel Eto'o"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "What are the colors of FC Barcelona's home kit?",
+      "options": [
+        "Red and White",
+        "Blue and Red",
+        "Black and Yellow",
+        "Green and Blue"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which coach led Barcelona to the 2009 treble?",
+      "options": [
+        "Pep Guardiola",
+        "Luis Enrique",
+        "Frank Rijkaard",
+        "Tito Vilanova"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "In what year did Ronaldinho join FC Barcelona?",
+      "options": ["2001", "2002", "2003", "2004"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which team is Barcelona’s biggest rival?",
+      "options": ["Atletico Madrid", "Real Betis", "Real Madrid", "Sevilla"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which Barcelona player won the Ballon d'Or for the first time in 1999?",
+      "options": ["Rivaldo", "Figo", "Ronaldinho", "Stoichkov"],
+      "correctOption": 0,
+      "points": 10
+    },
+
+    {
+      "question": "Which year did Barcelona win their first Champions League?",
+      "options": ["1988", "1992", "1996", "2001"],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "Which legendary midfielder wore the number 6 at Barcelona?",
+      "options": ["Xavi", "Iniesta", "Busquets", "Thiago"],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "Who scored the winning goal in the 2006 Champions League final for Barcelona?",
+      "options": ["Ronaldinho", "Eto'o", "Iniesta", "Larsson"],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "Who succeeded Pep Guardiola as Barcelona manager in 2012?",
+      "options": ["Luis Enrique", "Tito Vilanova", "Setién", "Koeman"],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "What country is Barcelona legend Andrés Iniesta from?",
+      "options": ["Portugal", "Argentina", "Spain", "Brazil"],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "Which Barcelona player was known as 'El Mago' (The Magician)?",
+      "options": ["Ronaldinho", "Messi", "Xavi", "Neymar"],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "In what season did Barcelona achieve their famous 'MSN' trio peak (Messi, Suárez, Neymar)?",
+      "options": ["2011/12", "2014/15", "2016/17", "2018/19"],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "Which Barcelona player is known for the famous 'La Croqueta' move?",
+      "options": ["Messi", "Iniesta", "Xavi", "Busquets"],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "In what year did Neymar join FC Barcelona?",
+      "options": ["2011", "2012", "2013", "2014"],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "Which defender is considered one of the best ball-playing center-backs in Barça history?",
+      "options": [
+        "Carlos Puyol",
+        "Samuel Umtiti",
+        "Gerard Piqué",
+        "Rafael Márquez"
+      ],
+      "correctOption": 2,
+      "points": 20
+    },
+
+    {
+      "question": "Messi made his official debut for Barcelona's senior team in which year?",
+      "options": ["2002", "2003", "2004", "2005"],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "Which Barcelona coach introduced the famous 'tiki-taka' system more effectively?",
+      "options": ["Rijkaard", "Valverde", "Guardiola", "Koeman"],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "Barcelona completed a historic sextuple in which year?",
+      "options": ["2008", "2009", "2010", "2011"],
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "question": "Which La Masia graduate is known as the best holding midfielder of the Guardiola era?",
+      "options": ["Busquets", "Deco", "Thiago", "Keita"],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "Who scored the dramatic last-minute goal against Chelsea in the 2009 UCL semifinal?",
+      "options": ["Messi", "Piqué", "Iniesta", "Pedro"],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "Which year did Barcelona defeat PSG 6–1 in the historic remontada?",
+      "options": ["2015", "2016", "2017", "2018"],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "Which Barcelona president signed Ronaldinho?",
+      "options": ["Laporta", "Rosell", "Bartomeu", "Núñez"],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "Against which team did Messi score his first official hat-trick?",
+      "options": ["Valencia", "Real Madrid", "Sevilla", "Atlético Madrid"],
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "question": "In what year did Xavi leave Barcelona as a player?",
+      "options": ["2013", "2014", "2015", "2016"],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "Which Barcelona player scored the winning goal in the 2015 Champions League final?",
+      "options": ["Messi", "Neymar", "Suárez", "Rakitic"],
+      "correctOption": 1,
+      "points": 30
+    }
+  ]
+}
