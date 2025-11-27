@@ -4,6 +4,7 @@ const QuestionsContext = createContext();
 const SEC_PER_QUE = 30;
 const initialState = {
   questions: [],
+  allQuestions: [],
   status: "loading",
   index: 0,
   answer: null,
@@ -17,6 +18,7 @@ const reducer = (state, action) => {
     case "dataReceived":
       return {
         ...state,
+        allQuestions: action.payload,
         questions: action.payload,
         status: "ready",
       };
@@ -26,10 +28,19 @@ const reducer = (state, action) => {
         status: "error",
       };
     case "start":
+      const filtered =
+        action.payload === "easy"
+          ? state.allQuestions.filter((q) => q.points === 10)
+          : action.payload === "medium"
+          ? state.allQuestions.filter((q) => q.points === 20)
+          : state.allQuestions.filter((q) => q.points === 30);
+
       return {
         ...state,
         status: "active",
-        secondRemaining: state.questions.length * SEC_PER_QUE,
+        level: action.payload,
+        questions: filtered,
+        secondRemaining: filtered.length * SEC_PER_QUE,
       };
     case "answered":
       const question = state.questions.at(state.index);
@@ -57,6 +68,7 @@ const reducer = (state, action) => {
         index: 0,
         answer: null,
         points: 0,
+        questions: state.allQuestions,
       };
     case "timer":
       return {

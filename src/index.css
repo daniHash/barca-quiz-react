@@ -277,3 +277,36 @@ progress {
   font-size: inherit;
   padding: 0.8rem;
 }
+
+select {
+  font-family: inherit;
+  font-size: 2rem;
+  color: inherit;
+  outline: none;
+  border: 2px solid var(--color-dark);
+  background-color: var(--color-dark);
+  padding: 1.2rem 2.4rem;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 2rem;
+}
+
+select:hover {
+  background-color: #c2003a;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 1.6rem center;
+  background-size: 1.8rem;
+  padding-right: 4.5rem;
+}
+::selection {
+  background: #a50044;
+  color: #fff;
+}
