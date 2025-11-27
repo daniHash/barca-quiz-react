@@ -12,6 +12,11 @@ const StartQuiz = () => {
       >
         Lets,s Start
       </button>
+      <select name="" id="">
+        <option value="">Easy</option>
+        <option value="">Medium</option>
+        <option value="">Hard</option>
+      </select>
     </div>
   );
 };

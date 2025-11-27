@@ -1,6 +1,6 @@
 :root {
-  --color-darkest: #343a40;
-  --color-dark: #495057;
+  --color-darkest: #0a1e6a;
+  --color-dark: #a50044;
   --color-medium: #ced4da;
   --color-light: #f1f3f5;
 
@@ -149,7 +149,7 @@ progress {
 }
 
 .btn:not([disabled]):hover {
-  background-color: var(--color-darkest);
+  background-color: #c2003a;
 }
 
 .btn-option:not([disabled]):hover {
