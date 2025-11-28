@@ -6,8 +6,10 @@ const StartQuiz = () => {
   const { numOfQuestions, dispatch } = useQuestionsContext();
   return (
     <div className="start">
-      <h2>Welcome To The React Quiz!</h2>
-      <h3>{numOfQuestions} questions to test your React mastery</h3>
+      <h2>Welcome To The Barca Quiz!</h2>
+      <h3 style={{ width: "600px", textAlign: "center" }}>
+        {numOfQuestions / 3} questions to test Your information about Barça
+      </h3>
       <button
         className="btn btn-ui"
         onClick={() => dispatch({ type: "start", payload: level })}
